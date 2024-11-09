@@ -66,8 +66,8 @@ class BukuSeeder extends Seeder
              'penerbit' => 'Shueisha',
              'tahun_terbit' => 1997,
              'kategori' => 'Komik',
-             'isbn' => '978-4-08-872509-3',
-             'stok' => 10, 
+             'isbn' => '978-0-452-28423-4',
+             'stok' => 8, 
          ]);
     }
 }
