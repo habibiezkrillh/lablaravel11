@@ -11,7 +11,7 @@ class NewspaperSeeder extends Seeder
     public function run(): void
     {
         Newspaper::create([
-            
+
         ]);
     }
 }

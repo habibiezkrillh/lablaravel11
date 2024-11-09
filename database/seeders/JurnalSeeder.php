@@ -42,5 +42,16 @@ class JurnalSeeder extends Seeder
             'kategori' => 'Online',
             'link_akses' => 'https://guru.kemdikbud.go.id/bukti-karya/pdf/659718?source=BK_EXPLORATION_PAGE',
         ]);
+
+        Jurnal::create([
+            'judul' => 'Advances in Machine Learning Algorithms for Big Data',
+            'penulis' => 'Alice Johnson',
+            'tahun_terbit' => 2023,
+            'abstrak' => 'A comprehensive overview of machine learning methods applied to large-scale data processing.',
+            'volume' => 30,
+            'nomor' => 2,
+            'kategori' => 'Computer Science',
+            'link_akses' => 'https://www.mlbigdata.com/journal12345',
+        ]);
     }
 }

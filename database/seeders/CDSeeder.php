@@ -49,5 +49,13 @@ class CDSeeder extends Seeder
             'tahun_rilis' => 2003,
             'stok' => 5,
         ]);
+
+        CD::create([
+            'judul' => 'ASTROWORLD',
+            'penerbit' => 'Travis Scott',
+            'kategori' => 'Musik',
+            'tahun_rilis' => 2018,
+            'stok' => 3,
+        ]);
     }
 }

@@ -59,5 +59,15 @@ class BukuSeeder extends Seeder
             'isbn' => '978-0-452-28423-4',
             'stok' => 8, 
         ]);
+
+        Buku::create([
+            'judul' => 'One Piece',
+             'penulis' => 'Eiichiro Oda',
+             'penerbit' => 'Shueisha',
+             'tahun_terbit' => 1997,
+             'kategori' => 'Komik',
+             'isbn' => '978-4-08-872509-3',
+             'stok' => 10, 
+         ]);
     }
 }
