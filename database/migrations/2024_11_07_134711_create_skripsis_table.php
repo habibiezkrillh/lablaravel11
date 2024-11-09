@@ -17,7 +17,6 @@ return new class extends Migration
             $table->string('penulis');
             $table->year('tahun_terbit');
             $table->text('abstrak');
-            $table->string('kategori');
         });
     }
 
