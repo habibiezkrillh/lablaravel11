@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('penerbit');
             $table->year('tahun_terbit');
             $table->string('kategori');
+
         });
     }
 

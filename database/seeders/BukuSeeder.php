@@ -16,8 +16,6 @@ class BukuSeeder extends Seeder
             'penerbit' => 'Informatika Publisher',
             'tahun_terbit' => 2022,
             'kategori' => 'Pemrograman',
-            'isbn' => '978-602-6233-87-6',
-            'stok' => 15, 
         ]);
 
         Buku::create([
@@ -26,8 +24,6 @@ class BukuSeeder extends Seeder
             'penerbit' => 'Techno Books',
             'tahun_terbit' => 2021,
             'kategori' => 'Data Science',
-            'isbn' => '978-602-4017-89-7',
-            'stok' => 10, 
         ]);
 
         Buku::create([
@@ -36,8 +32,6 @@ class BukuSeeder extends Seeder
             'penerbit' => 'J.B. Lippincott & Co.',
             'tahun_terbit' => 1960,
             'kategori' => 'Fiksi',
-            'isbn' => '978-0-06-112008-4',
-            'stok' => 10,
         ]);
 
         Buku::create([
@@ -46,8 +40,6 @@ class BukuSeeder extends Seeder
             'penerbit' => 'Charles Scribners Sons',
             'tahun_terbit' => 1925,
             'kategori' => 'Fiksi',
-            'isbn' => '978-0-7432-7356-5',
-            'stok' => 7,
         ]);
 
         Buku::create([
@@ -56,8 +48,6 @@ class BukuSeeder extends Seeder
             'penerbit' => 'Secker & Warburg',
             'tahun_terbit' => 1949,
             'kategori' => 'Fiksi Ilmiah',
-            'isbn' => '978-0-452-28423-4',
-            'stok' => 8, 
         ]);
 
         Buku::create([
@@ -66,8 +56,6 @@ class BukuSeeder extends Seeder
              'penerbit' => 'Shueisha',
              'tahun_terbit' => 1997,
              'kategori' => 'Komik',
-             'isbn' => '978-0-452-28423-4',
-             'stok' => 8, 
          ]);
     }
 }
