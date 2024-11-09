@@ -8,11 +8,10 @@ use App\Models\Newspaper;
 
 class NewspaperSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        //
+        Newspaper::create([
+            
+        ]);
     }
 }
